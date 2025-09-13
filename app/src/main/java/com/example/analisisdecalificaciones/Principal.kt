@@ -6,6 +6,7 @@ fun main() {
     val analizador = AnalizadorCalificaciones();
     analizador.Captura();
     analizador.Imprimir();
+
     println("Promedio: ${analizador.calcularPromedio()}");
 
     println("Materias aprobadas: ${analizador.contarAprobadas()}");
